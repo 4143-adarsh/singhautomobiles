@@ -1,0 +1,19 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Environment files
+.env
+*.env
+
+# Uploads (don't commit user files)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Build outputs
+frontend/dist/
+frontend/.vite/
+
+# OS
+.DS_Store
+Thumbs.db
